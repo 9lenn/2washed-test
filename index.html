@@ -3,11 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glenn's Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Glenn's Personal Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+        
+        .content {
+            margin-top: 80px;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <p>Initial setup for Glenn's website.</p>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/technical">Technical Portfolio</a>
+        <a href="/creative">Creative Portfolio</a>
+    </nav>
+    
+    <div class="content">
+        <h1>Glenn</h1>
+        <p>Welcome to my personal site. I'm passionate about learning wherever my brain wanders. Hope to add more soon. Thank you for visiting :D Learn to build.</p>
+    </div>
 </body>
 </html>
